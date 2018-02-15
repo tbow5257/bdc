@@ -1,9 +1,11 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import FrontpageSlider from '../components/FrontpageSlider'
 
 
 const IndexPage = () => (
   <div>
+    <FrontpageSlider/>
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
